@@ -115,7 +115,7 @@ function ProductModal({ active, editItem, urlOptions, headers, onClose, onSave, 
             let message;
             switch(err.message) {
                 case "not unique id":
-                    message = "The DEO product must be unique";
+                    message = "The Simvoly product must be unique";
                     break;
                 default:
                     message = "Could not save changes";
@@ -253,7 +253,7 @@ function ProductModal({ active, editItem, urlOptions, headers, onClose, onSave, 
         <Modal
             open={active}
             onClose={handleClose}
-            title="Match Shopify products to DEO products"
+            title="Match Shopify products to Simvoly products"
             primaryAction={{
                 content: "Save",
                 disabled: item.deoID == null || item.shopifyID == null,

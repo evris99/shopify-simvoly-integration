@@ -78,7 +78,7 @@ function Setup({ headers, showToast }) {
             showToast("Saved", false);
         } catch(err) {
             if(err.message?.status === 403)
-                showToast("The DEO store is already connected to a Shopify store", true);
+                showToast("The Simvoly store is already connected to a Shopify store", true);
             else
                 showToast("Invalid domain or API key", true);
             console.error(err);
@@ -168,7 +168,7 @@ function Setup({ headers, showToast }) {
 
     return (
         <Fragment>
-            <TitleBar title="Link DEO funnels"/>
+            <TitleBar title="Link Simvoly funnels"/>
             <Page
                 title="Add new funnels"
                 primaryAction={{

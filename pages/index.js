@@ -111,7 +111,7 @@ function Index({ headers, showToast }) {
     const pageProps = useMemo(() => {
         if(Array.isArray(items) && items.length)
             return {
-                title: "Connect DEO products to Shopify products",
+                title: "Connect Simvoly products to Shopify products",
                 action: {
                     content: "New Product",
                     onAction: openModal.bind(this, null)

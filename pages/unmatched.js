@@ -53,7 +53,7 @@ function Unmatched({ headers, showToast }) {
     */
     const pageTitle = useMemo(() => {
         if(areNoItems) return null;
-        return "Connect unmatched DEO products with Shopify products"
+        return "Connect unmatched Simvoly products with Shopify products"
     }, [items]);
 
 

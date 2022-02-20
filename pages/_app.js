@@ -64,7 +64,7 @@ function MyApp({ Component, pageProps }) {
 	return (
 		<>
 			<Head>
-				<title>DEO integration</title>
+				<title>Simvoly integration</title>
 				<meta charSet="utf-8" />
 			</Head>
 			<Provider config={config}>
