@@ -1,0 +1,44 @@
+{
+  "name": "simvoly-shopify-integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPL-3",
+  "dependencies": {
+    "@shopify/app-bridge": "^1.29.0",
+    "@shopify/app-bridge-react": "^1.28.0",
+    "@shopify/app-bridge-utils": "^1.29.0",
+    "@shopify/polaris": "^6.2.0",
+    "@zeit/next-css": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.4.0",
+    "graphql-request": "^3.3.0",
+    "isomorphic-fetch": "^3.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-morgan": "^1.0.1",
+    "koa-router": "^9.4.0",
+    "koa-session": "^6.1.0",
+    "mongoose": "^5.10.15",
+    "next": "^10.0.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "nodemon": "^2.0.7",
+    "prettier": "2.1.1"
+  }
+}

@@ -1,0 +1,6 @@
+.env
+logs
+node_modules
+.next
+.eslintrc.json
+.vscode
